@@ -1,0 +1,108 @@
+2026-03-02T00:01:56 | INFO     | event=bot_response | session=session_c1fbd3ca | query="'Tell me about Swiggy'" | response='"Swiggy is a food startup based in Bangalore, India, operating in the online food delivery and ordering space. They\'ve had 8 funding rounds, with a total disclosed funding of $270.5 million USD. Their "' | route='factual' | is_fallback=False | latency_ms=890.0
+2026-03-02T10:01:17 | INFO     | event=session_start | session=session_db542fcb
+2026-03-02T10:03:05 | INFO     | event=user_query | session=session_db542fcb | query="'what does razorpay do'"
+2026-03-02T10:03:06 | INFO     | event=sanitize_ok | session=session_db542fcb | clean="'what does razorpay do'"
+2026-03-02T10:03:06 | INFO     | event=route | session=session_db542fcb | route='factual' | filters={} | is_followup=False
+2026-03-02T10:03:06 | INFO     | event=chroma_ok | session=session_db542fcb | results=5 | top_score=0.7843
+2026-03-02T10:03:07 | INFO     | event=response_ok | session=session_db542fcb | length=179
+2026-03-02T10:03:07 | INFO     | event=bot_response | session=session_db542fcb | query="'what does razorpay do'" | response="'Razorpay is an online payment gateway startup based in Bangalore, India. They provide technology for online payments, allowing businesses to accept and process payments digitally.'" | route='factual' | is_fallback=False | latency_ms=857.3
+2026-03-02T10:03:21 | INFO     | event=user_query | session=session_db542fcb | query="'who is theire investors'"
+2026-03-02T10:03:21 | INFO     | event=sanitize_ok | session=session_db542fcb | clean="'who is theire investors'"
+2026-03-02T10:03:21 | INFO     | event=route | session=session_db542fcb | route='structured' | filters={} | is_followup=True
+2026-03-02T10:03:22 | INFO     | event=llama_ok | session=session_db542fcb | length=291
+2026-03-02T10:03:23 | INFO     | event=response_ok | session=session_db542fcb | length=118
+2026-03-02T10:03:23 | INFO     | event=bot_response | session=session_db542fcb | query="'who is theire investors'" | response='"Razorpay\'s investors include:\\n* Tiger Global\\n* Y Combinator\\n* Mastercard\\n* Matrix Partners\\n* Punit Soni, among others."' | route='structured' | is_fallback=False | latency_ms=1193.1
+2026-03-02T10:03:34 | INFO     | event=user_query | session=session_db542fcb | query="'tell me about swiggy'"
+2026-03-02T10:03:34 | INFO     | event=sanitize_ok | session=session_db542fcb | clean="'tell me about swiggy'"
+2026-03-02T10:03:34 | INFO     | event=route | session=session_db542fcb | route='factual' | filters={} | is_followup=False
+2026-03-02T10:03:34 | INFO     | event=chroma_ok | session=session_db542fcb | results=5 | top_score=0.6809
+2026-03-02T10:03:35 | INFO     | event=response_ok | session=session_db542fcb | length=450
+2026-03-02T10:03:35 | INFO     | event=bot_response | session=session_db542fcb | query="'tell me about swiggy'" | response='"Swiggy is a food startup based in Bangalore, India, operating in the online food ordering and delivery space. They\'ve raised a total of $270.5 million in funding across 8 rounds, with investors like N"' | route='factual' | is_fallback=False | latency_ms=500.1
+2026-03-02T10:04:16 | INFO     | event=user_query | session=session_db542fcb | query="'which are best to collabrate with'"
+2026-03-02T10:04:16 | INFO     | event=sanitize_ok | session=session_db542fcb | clean="'which are best to collabrate with'"
+2026-03-02T10:04:16 | INFO     | event=route | session=session_db542fcb | route='vague' | filters={} | is_followup=False
+2026-03-02T10:04:16 | WARNING  | event=clarification | session=session_db542fcb | query="'which are best to collabrate with'" | question="'Could you narrow it down? For example, by sector, city, funding stage, or company size.'"
+2026-03-02T10:04:16 | INFO     | event=bot_response | session=session_db542fcb | query="'which are best to collabrate with'" | response="'Could you narrow it down? For example, by sector, city, funding stage, or company size.'" | route='vague' | is_fallback=False | latency_ms=0.0
+2026-03-02T10:04:26 | INFO     | event=user_query | session=session_db542fcb | query="'mumbai based'"
+2026-03-02T10:04:26 | INFO     | event=sanitize_ok | session=session_db542fcb | clean="'mumbai based'"
+2026-03-02T10:04:26 | INFO     | event=route | session=session_db542fcb | route='exploratory' | filters={'city': 'mumbai'} | is_followup=False
+2026-03-02T10:04:26 | INFO     | event=chroma_ok | session=session_db542fcb | results=7 | top_score=0.7317
+2026-03-02T10:04:27 | INFO     | event=response_ok | session=session_db542fcb | length=490
+2026-03-02T10:04:27 | INFO     | event=bot_response | session=session_db542fcb | query="'mumbai based'" | response="'Some notable Mumbai-based startups for collaboration include:\\n\\n* Living Local (social discovery platform)\\n* House of Masaba (luxury label)\\n* Naturally Yours (organic food etailer)\\n* Bombay Shirt Compa'" | route='exploratory' | is_fallback=False | latency_ms=532.8
+2026-03-02T10:04:41 | INFO     | event=session_end | session=session_db542fcb
+2026-03-02T10:16:21 | INFO     | event=session_start | session=session_db542fcb
+2026-03-02T10:16:47 | INFO     | event=user_query | session=session_db542fcb | query="'what does razorpay do'"
+2026-03-02T10:16:48 | INFO     | event=sanitize_ok | session=session_db542fcb | clean="'what does razorpay do'"
+2026-03-02T10:16:48 | INFO     | event=route | session=session_db542fcb | route='factual' | filters={} | is_followup=False
+2026-03-02T10:16:48 | INFO     | event=chroma_ok | session=session_db542fcb | results=5 | top_score=0.7843
+2026-03-02T10:16:48 | INFO     | event=response_ok | session=session_db542fcb | length=198
+2026-03-02T10:16:48 | INFO     | event=bot_response | session=session_db542fcb | query="'what does razorpay do'" | response="'Razorpay is an online payment gateway startup. They provide technology solutions for businesses to accept payments online, making it easier for them to manage transactions and grow their operations.'" | route='factual' | is_fallback=False | latency_ms=479.4
+2026-03-02T10:16:51 | INFO     | event=user_query | session=session_db542fcb | query="'who is theire investors'"
+2026-03-02T10:16:51 | INFO     | event=sanitize_ok | session=session_db542fcb | clean="'who is theire investors'"
+2026-03-02T10:16:51 | INFO     | event=route | session=session_db542fcb | route='structured' | filters={} | is_followup=True
+2026-03-02T10:16:52 | INFO     | event=llama_ok | session=session_db542fcb | length=421
+2026-03-02T10:16:52 | INFO     | event=response_ok | session=session_db542fcb | length=107
+2026-03-02T10:16:52 | INFO     | event=bot_response | session=session_db542fcb | query="'who is theire investors'" | response='"Razorpay\'s investors include:\\n* Sequoia India\\n* Tiger Global\\n* Y Combinator\\n* Matrix Partners \\n* MasterCard"' | route='structured' | is_fallback=False | latency_ms=1434.0
+2026-03-02T10:16:56 | INFO     | event=user_query | session=session_db542fcb | query="'tell me about swiggy'"
+2026-03-02T10:16:56 | INFO     | event=sanitize_ok | session=session_db542fcb | clean="'tell me about swiggy'"
+2026-03-02T10:16:56 | INFO     | event=route | session=session_db542fcb | route='factual' | filters={} | is_followup=False
+2026-03-02T10:16:56 | INFO     | event=chroma_ok | session=session_db542fcb | results=5 | top_score=0.6809
+2026-03-02T10:16:57 | INFO     | event=response_ok | session=session_db542fcb | length=528
+2026-03-02T10:16:57 | INFO     | event=bot_response | session=session_db542fcb | query="'tell me about swiggy'" | response="'Swiggy is a food startup based in Bangalore, India. They operate in the food and beverages industry, specifically in online food ordering and delivery. Swiggy has raised a total of $270.5 million in f'" | route='factual' | is_fallback=False | latency_ms=549.6
+2026-03-02T10:17:10 | INFO     | event=user_query | session=session_db542fcb | query="'is swiggy a unicorn'"
+2026-03-02T10:17:10 | INFO     | event=sanitize_ok | session=session_db542fcb | clean="'is swiggy a unicorn'"
+2026-03-02T10:17:10 | INFO     | event=route | session=session_db542fcb | route='structured' | filters={} | is_followup=False
+2026-03-02T10:17:10 | INFO     | event=llama_ok | session=session_db542fcb | length=252
+2026-03-02T10:17:11 | INFO     | event=response_ok | session=session_db542fcb | length=62
+2026-03-02T10:17:11 | INFO     | event=bot_response | session=session_db542fcb | query="'is swiggy a unicorn'" | response="'Yes, Swiggy is a unicorn, with a valuation of over $1 billion.'" | route='structured' | is_fallback=False | latency_ms=703.7
+2026-03-02T10:17:22 | INFO     | event=session_end | session=session_db542fcb
+2026-03-02T10:28:53 | INFO     | event=session_start | session=session_db542fcb
+2026-03-02T10:29:03 | INFO     | event=user_query | session=session_db542fcb | query="'what does razor pay do'"
+2026-03-02T10:29:04 | INFO     | event=sanitize_ok | session=session_db542fcb | clean="'what does razor pay do'"
+2026-03-02T10:29:04 | INFO     | event=route | session=session_db542fcb | route='factual' | filters={} | is_followup=False
+2026-03-02T10:29:04 | INFO     | event=chroma_ok | session=session_db542fcb | results=5 | top_score=0.7425
+2026-03-02T10:29:04 | INFO     | event=response_ok | session=session_db542fcb | length=270
+2026-03-02T10:29:04 | INFO     | event=bot_response | session=session_db542fcb | query="'what does razor pay do'" | response="'Razorpay is an online payment gateway that enables businesses to accept payments online. They provide a technology platform for businesses to manage their online payments, and their services include p'" | route='factual' | is_fallback=False | latency_ms=500.5
+2026-03-02T10:29:11 | INFO     | event=user_query | session=session_db542fcb | query="'who are there investors'"
+2026-03-02T10:29:12 | INFO     | event=sanitize_ok | session=session_db542fcb | clean="'who are there investors'"
+2026-03-02T10:29:12 | INFO     | event=route | session=session_db542fcb | route='structured' | filters={} | is_followup=False
+2026-03-02T10:29:12 | INFO     | event=llama_ok | session=session_db542fcb | length=184
+2026-03-02T10:29:12 | INFO     | event=response_ok | session=session_db542fcb | length=195
+2026-03-02T10:29:12 | INFO     | event=bot_response | session=session_db542fcb | query="'who are there investors'" | response='"Razorpay\'s investors include:\\n* Tiger Global Management\\n* Susquehanna Growth Equity\\n* Sequoia Capital India\\n* Karsemven Fund\\n* Exfinity Fund\\n* GrowX Ventures\\n* A UK-based group of angel investors"' | route='structured' | is_fallback=False | latency_ms=856.9
+2026-03-02T10:29:21 | INFO     | event=user_query | session=session_db542fcb | query="'tell me about swiggy'"
+2026-03-02T10:29:21 | INFO     | event=sanitize_ok | session=session_db542fcb | clean="'tell me about swiggy'"
+2026-03-02T10:29:21 | INFO     | event=route | session=session_db542fcb | route='factual' | filters={} | is_followup=False
+2026-03-02T10:29:21 | INFO     | event=chroma_ok | session=session_db542fcb | results=5 | top_score=0.6809
+2026-03-02T10:29:22 | INFO     | event=response_ok | session=session_db542fcb | length=538
+2026-03-02T10:29:22 | INFO     | event=bot_response | session=session_db542fcb | query="'tell me about swiggy'" | response="'Swiggy is a food startup based in Bangalore, India. They operate in the food and beverages industry, specifically in online food ordering and delivery. Swiggy has raised a total of $270.5 million in f'" | route='factual' | is_fallback=False | latency_ms=614.5
+2026-03-02T10:29:30 | INFO     | event=user_query | session=session_db542fcb | query="'which company is best for marketing collab'"
+2026-03-02T10:29:31 | INFO     | event=sanitize_ok | session=session_db542fcb | clean="'which company is best for marketing collab'"
+2026-03-02T10:29:31 | INFO     | event=route | session=session_db542fcb | route='vague' | filters={} | is_followup=False
+2026-03-02T10:29:31 | WARNING  | event=clarification | session=session_db542fcb | query="'which company is best for marketing collab'" | question="'Could you narrow it down? For example, by sector, city, funding stage, or company size.'"
+2026-03-02T10:29:31 | INFO     | event=bot_response | session=session_db542fcb | query="'which company is best for marketing collab'" | response="'Could you narrow it down? For example, by sector, city, funding stage, or company size.'" | route='vague' | is_fallback=False | latency_ms=14.2
+2026-03-02T10:29:47 | INFO     | event=user_query | session=session_db542fcb | query="'marketing'"
+2026-03-02T10:29:47 | INFO     | event=sanitize_ok | session=session_db542fcb | clean="'marketing'"
+2026-03-02T10:29:47 | INFO     | event=route | session=session_db542fcb | route='factual' | filters={} | is_followup=False
+2026-03-02T10:29:47 | INFO     | event=chroma_ok | session=session_db542fcb | results=5 | top_score=0.7023
+2026-03-02T10:29:48 | INFO     | event=response_ok | session=session_db542fcb | length=408
+2026-03-02T10:29:48 | INFO     | event=bot_response | session=session_db542fcb | query="'marketing'" | response="'For marketing collaborations, consider MaaxMarket, a marketing automation platform based in India. They received $22,500 in seed funding from multiple investors in 2016. Alternatively, you could look '" | route='factual' | is_fallback=False | latency_ms=501.8
+2026-03-02T10:30:06 | INFO     | event=session_end | session=session_db542fcb
+2026-03-02T10:34:21 | INFO     | event=session_start | session=session_db542fcb
+2026-03-02T10:34:35 | INFO     | event=user_query | session=session_db542fcb | query="'what does razor pay do'"
+2026-03-02T10:34:36 | INFO     | event=sanitize_ok | session=session_db542fcb | clean="'what does razor pay do'"
+2026-03-02T10:34:36 | INFO     | event=route | session=session_db542fcb | route='factual' | filters={} | is_followup=False
+2026-03-02T10:34:36 | INFO     | event=chroma_ok | session=session_db542fcb | results=5 | top_score=0.7425
+2026-03-02T10:34:36 | INFO     | event=response_ok | session=session_db542fcb | length=160
+2026-03-02T10:34:36 | INFO     | event=bot_response | session=session_db542fcb | query="'what does razor pay do'" | response="'Razorpay is an online payment gateway. They provide technology for businesses to accept payments online, making it easier for companies to process transactions.'" | route='factual' | is_fallback=False | latency_ms=401.4
+2026-03-02T10:34:45 | INFO     | event=user_query | session=session_db542fcb | query="'who are there investors'"
+2026-03-02T10:34:45 | INFO     | event=sanitize_ok | session=session_db542fcb | clean="'who are there investors'"
+2026-03-02T10:34:45 | INFO     | event=route | session=session_db542fcb | route='structured' | filters={} | is_followup=False
+2026-03-02T10:34:46 | INFO     | event=llama_ok | session=session_db542fcb | length=184
+2026-03-02T10:34:46 | INFO     | event=response_ok | session=session_db542fcb | length=195
+2026-03-02T10:34:46 | INFO     | event=bot_response | session=session_db542fcb | query="'who are there investors'" | response='"Razorpay\'s investors include:\\n* Tiger Global Management\\n* Susquehanna Growth Equity\\n* Sequoia Capital India\\n* Karsemven Fund\\n* Exfinity Fund\\n* GrowX Ventures\\n* A UK-based group of angel investors"' | route='structured' | is_fallback=False | latency_ms=869.5
+2026-03-02T10:34:52 | INFO     | event=user_query | session=session_db542fcb | query="'tell me about swiggy'"
+2026-03-02T10:34:52 | INFO     | event=sanitize_ok | session=session_db542fcb | clean="'tell me about swiggy'"
+2026-03-02T10:34:52 | INFO     | event=route | session=session_db542fcb | route='factual' | filters={} | is_followup=False
+2026-03-02T10:34:52 | INFO     | event=chroma_ok | session=session_db542fcb | results=5 | top_score=0.6809
+2026-03-02T10:34:52 | INFO     | event=response_ok | session=session_db542fcb | length=548
+2026-03-02T10:34:52 | INFO     | event=bot_response | session=session_db542fcb | query="'tell me about swiggy'" | response="'Swiggy is a food startup based in Bangalore, India. They operate in the food and beverages industry, specifically in online food ordering and delivery. Swiggy has raised a total of $270.5 million in f'" | route='factual' | is_fallback=False | latency_ms=498.5

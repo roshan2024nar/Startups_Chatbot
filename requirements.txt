@@ -1,0 +1,31 @@
+# LLM & Orchestration
+langchain-core
+langchain-groq
+langgraph
+langgraph-checkpoint-redis
+
+# Vector store & Embeddings
+chromadb
+sentence-transformers
+
+# Structured query (tabular data)
+llama-index-core
+llama-index-experimental
+llama-index-llms-groq
+polars
+
+# Session memory
+redis
+redisvl
+
+# Observability
+langfuse
+
+# API
+flask
+
+# Data
+pandas
+
+# Config
+python-dotenv
