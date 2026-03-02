@@ -96,8 +96,8 @@ Session IDs are stored in `.session_id` (auto-created on first run). On restart,
 ### 1. Clone and create virtual environment
 
 ```bash
-git clone <repo-url>
-cd work-task
+git clone https://github.com/roshan2024nar/Startups_Chatbot
+cd Startups_Chatbot
 
 python -m venv venv
 
